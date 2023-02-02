@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon"
+    href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/900px-Facebook_f_logo_%282019%29.svg.png">
+    <title> Four Farmers | Fakebook </title>
+
+</head>
+
+<body>
+    <div style="cursor: pointer;" class="d-flex flex-column w-100 h-100">
+        <div class="flex shadow-sm p-3 mb-5 bg-body rounded">
+            <div class="flex3">
+                <div class="dh">
+                    <img class="imga"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1365px-Facebook_f_logo_%282019%29.svg.png"
+                        alt="" />
+                </div>
+                <input type="text" class="input" placeholder="Search Fakebook" />
+            </div>
+            <div id="flex1">
+                <a  href="../../index.html" id="tt0" style="color: black;"><i class="fa-solid fa-house fa-lg"></i></a>
+            <a style="color: black;" href="../../Facebook_Home/watch/watch.html" id="tt1"><i class="fa-solid fa-display fa-lg"></i></a>
+                <a id="tt2"><i class="fa-solid fa-store fa-lg"></i></a>
+                <a id="tt3"><i class="fa-solid fa-users-line fa-lg"></i></a>
+                <a id="tt4"><i class="fa-solid fa-puzzle-piece fa-lg"></i></a>
+            </div>
+            <div class="flex2">
+                <div class="round-btn1"><i class="fa-solid fa-grip fa-lg"></i></div>
+                <div class="round-btn1">
+                    <i class="fa-brands fa-facebook-messenger fa-lg"></i>
+                </div>
+                <div class="round-btn1"><i class="fa-solid fa-bell fa-lg"></i></div>
+                <img onclick="setContent()" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                    data-bs-title="Tooltip on bottom" class="imga1 "
+                    src="./z3667158465268_22992f4611764e8d13dcde87b22ef672.jpg"
+                    alt="" />
+                <div onclick="setContent()" class="t-angeladown"
+                    style="margin-top:25px; margin-right: 11px;font-size: 13px;">
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="d-flex justify-content-end" style="margin-top: 52px;margin-right: 13px;">
+            <div id="t-content" class="shadow-lg p-3 mb-5 bg-body rounded "
+                style=" width: 361px; margin: 6px; z-index: 11; position: fixed; display: none; ">
+                <div style="display: flex; flex-direction: column;  height: 123px; "
+                    class="shadow-lg p-3 mb-5 bg-body rounded t-div1">
+                    <div class="t-hang5" style="display: flex; align-items: center; ">
+                        <div style="margin-top:4px;">
+                            <img class="gneimcpu p9wrh9lq"
+                                src="./z3667158465268_22992f4611764e8d13dcde87b22ef672.jpg"
+                                alt="" style="height: 36px; width: 36px; object-fit: cover;">
+                        </div>
+                        <div style="display: flex;flex-direction: column; margin-left: 10px;">
+                            <span style="font-weight:600; ;">Four Farmers</span>
+                        </div>
+                    </div>
+                    <div style=" border-bottom: 1px solid #CED0D4; margin-top:20px; margin-bottom: 6px;"></div>
+                    <a style="font-weight: 600;" href="#">See all profiles</a>
+                </div>
+                <div class="t-hang12345" style="cursor: pointer;">
+                    <div class="t-cot123" style="display: flex; align-items: center; justify-content: space-between;">
+                        <div class="t-cot12" style="display: flex; align-items: center;">
+                            <i class="fa-solid fa-gear"></i>
+                            <div style="margin-left: 5px; font-weight: 500;color: #414141;" class="t-cot2">Settings and privacy
+                                </div>
+                        </div>
+                        <div class="t-cot3">
+                            <i style="margin-right: 5px; font-size: 20px; color: #414141;"
+                                class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="t-hang12345" style="cursor: pointer;">
+                    <div class="t-cot123" style="display: flex; align-items: center; justify-content: space-between;">
+                        <div class="t-cot12" style="display: flex; align-items: center;">
+                            <i class="fa-solid fa-circle-question"></i>
+                            <div style="margin-left: 5px; font-weight: 500;color: #414141;" class="t-cot2">Helps & supports
+                                </div>
+                        </div>
+                        <div class="t-cot3">
+                            <i style="margin-right: 5px; font-size: 20px; color: #414141;"
+                                class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="t-hang12345" style="cursor: pointer;">
+                    <div class="t-cot123" style="display: flex; align-items: center; justify-content: space-between;">
+                        <div class="t-cot12" style="display: flex; align-items: center;">
+                            <i class="fa-solid fa-moon"></i>
+                            <div style="margin-left: 5px; font-weight: 500;color: #414141;" class="t-cot2">Display & accessibility
+                                </div>
+                        </div>
+                        <div class="t-cot3">
+                            <i style="margin-right: 5px; font-size: 20px; color: #414141;"
+                                class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="t-hang12345" style="cursor: pointer;">
+                    <div class="t-cot123" style="display: flex; align-items: center; justify-content: space-between;">
+                        <div class="t-cot12" style="display: flex; align-items: center;">
+                            <i class="fa-solid fa-circle-exclamation"></i>
+                            <div style="margin-left: 5px; font-weight: 500;color: #414141;" class="t-cot2">Give feedback
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <a style="text-decoration: none;" href="../SIgnIn-Signup/login.html">
+                    <div class="t-hang12345" style="cursor: pointer;">
+                        <div class="t-cot123" style="display: flex; align-items: center; justify-content: space-between;">
+                            <div class="t-cot12" style="display: flex; align-items: center;">
+                                <i style="color: #212529" class="fa-solid fa-right-to-bracket"></i>
+                                <div style="margin-left: 5px; font-weight: 500;color: #414141;" class="t-cot2">Log out</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <div class="t-hang6" style="font-size: 14px;">
+                    <span class="t-hover">Privacy</span><span aria-hidden="true"> · </span><span
+                        class="t-hover">Tems</span><span aria-hidden="true"> · </span><span class="t-hover">Advertising
+                        </span><span aria-hidden="true"> · </span><span class="t-hover">Ad Choices<i
+                            data-visualcompletion="css-img" class="gneimcpu oee9glnz"
+                            style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yl/r/cbvsB_pNI8e.png&quot;); background-position: -86px -71px; background-size: auto; width: 12px; height: 12px; background-repeat: no-repeat; display: inline-block;"></i></span><span
+                        aria-hidden="true"> · </span><span class="t-hover">Cookies</span><span aria-hidden="true"> ·
+                    </span><span class="t-hover">More</span><span aria-hidden="true"> · </span>Meta © 2022</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="parent1-layout" style="height:572px;">
+            <div class="cover">
+                <img style="cursor: pointer;" src="./z3667158465268_22992f4611764e8d13dcde87b22ef672.jpg" alt=""
+                    class="cover-picture">
+            </div>
+            <div style="text-align:center;">
+                <div style="height: 164px;width:875px; display: inline-block;">
+                    <div class="avatar"
+                        style="border-bottom:1px solid #CCCED2; width: 1232px; margin-top: 163px; margin-left: -179px"> b
+                        <div class="ava">
+                            <img id="t-p" style="cursor: pointer; object-fit: cover; "
+                                src="./z3667158465268_22992f4611764e8d13dcde87b22ef672.jpg" alt="" class="ava-1">
+                            <i style="cursor: pointer;" class="fa-solid fa-camera t-camera"></i>
+                            <div
+                                style="display: flex; flex-direction: column; align-items: flex-start; margin-left: 15px;">
+                                <h1 style="padding-top:55px;">Four Farmers</h1>
+                                <span style=" margin-top: -10px; color: #65676B; cursor: pointer;">4K bạn bè</span>
+                                <div style="display: flex; object-fit:cover; margin-left: -2px;">
+                                    <img class="t-bb" style="z-index: 1;"
+                                        src="https://nhanquyenvn.org/wp-content/uploads/2021/03/tran-dan.png" alt="">
+                                    <img class="t-bb" style="z-index: 2;"
+                                        src="data:image/jpeg;base64,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"
+                                        alt="">
+                                    <img class="t-bb" style="z-index: 3;" src="../gordon-ramsay-danh-nhieu-thoi-gian-de-hoc-hoi-kinh-nghiem.jpg"
+                                        alt="">
+                                    <img class="t-bb" style="z-index: 4;" src="../huan-hoa-hong-toc-dung-dung-noi-u.jpg"
+                                        alt="">
+                                    <img class="t-bb" style="z-index: 5;"
+                                        src="https://scontent.fhan4-2.fna.fbcdn.net/v/t1.6435-9/150479540_1899509266857138_2091396570004763066_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=0yKf7R9FOMwAX_g9Ao4&_nc_ht=scontent.fhan4-2.fna&oh=00_AT9DYE6gyBHNETpjThsB0XChEIhsDBJtXgevg8Dz_OaFAw&oe=6326C274"
+                                        alt="">
+                                    <img class="t-bb" style="z-index: 6;" src="../Facebook_Home/img/Ảnh chụp màn hình 2022-08-20 143126.png"
+                                        alt="">
+                                    <img class="t-bb" style="z-index: 7;"
+                                        src="https://scontent.fhan3-4.fna.fbcdn.net/v/t39.30808-6/269273623_2736900899789415_711959850981197448_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=tpfjerWL8yMAX9NnQp0&_nc_ht=scontent.fhan3-4.fna&oh=00_AT_pzqtVcFX85uR4jYKMoSW9-mRXKVx9wQT6NIgAs918wQ&oe=630890DF"
+                                        alt="">
+                                    <img class="t-bb" style="z-index: 8;"
+                                        src="https://scontent.fhan3-1.fna.fbcdn.net/v/t1.6435-9/175412858_3169308326688853_7349774879548598041_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=8nQr0P5hbq0AX-OwdgE&_nc_ht=scontent.fhan3-1.fna&oh=00_AT_7mk3xmLXLL33vNiY4He7c-Co-T063IfNp7GYvJBhVGw&oe=6326F93A"
+                                        alt="">
+                                </div>
+                            </div>
+                            <button class="add-story"> <i class="fa-solid fa-circle-plus"> &nbsp; </i>
+                                Add to story </button>
+                            <button class="edit-profile"><i class="fa-solid fa-pen"> &nbsp; </i> Edit profile </button>
+                        </div>
+                    </div>
+                </div>
+                <div style="display:flex; padding-left: 320px;">
+                    <div class="list-item">About</div>
+                    <div class="list-item">Intro</div>
+                    <div class="list-item" style=" font-weight: 600; color: #1876F2">Friends</div>
+                    <div class="list-item">Photos</div>
+                    <div class="list-item">Videos</div>
+                    <div class="list-item">Check in</div>
+                    <div class="list-item">More<i style="margin-bottom:8px ; padding-left:8px; color: #606266;"
+                            class="fa-solid fa-sort-down"></i></div>
+                    <div class="list-item1" style="margin-left:485px;"><i class="fa-solid fa-ellipsis"></i></div>
+                </div>
+            </div>
+        </div>
+
+        <div style="display: flex; justify-content: center; background-color: #F0F2F5;">
+            <div class="to">
+                <div class="hang1"
+                    style="display: flex; justify-content: space-between; display: flex; flex-wrap: wrap;">
+                    <div class="cot1" style=" font-size: 20px; font-weight: bold; margin-top: 11px; margin-left: 18px;">
+                        <a href="#" style="color: #050505 ; text-decoration:none;">Bạn bè</a>
+                    </div>
+                    <div class="cot234" style="display: flex; align-items: flex-start; margin-right: 75px ;">
+                        <div class="search" style="display: flex; align-items: center; margin-right: -126px;">
+                            <div id="input-group" class="d-flex justify-content-center">
+                                <div class="input-group" style="cursor:pointer;">
+                                    <div id="input-icon"
+                                        class="d-flex flex-row justify-content-center align-items-center border flex-grow-1">
+                                        <img class="icon-search" src="./Vector.svg" />
+                                        <input style="background-color: #F0F2F5; border: #F0F2F5;" type="text"
+                                            class="border-0 outline-none" placeholder="Tìm kiếm" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="bgr" style="display: flex; align-items: center;">
+                            <div>
+                                <a href="#" style="text-decoration: none;">Lời mời kết bạn</a>
+                            </div>
+                            <div>
+                                <a href="#" style="text-decoration: none;">Tìm bạn bè</a>
+                            </div>
+                            <div style="margin-right:-48px;">
+                                &nbsp; &nbsp; &nbsp; <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hang2" style="margin-top:-85px;font-size: 16px;">
+                    <span id="allFr">Tất cả bạn bè</span>
+                    <span id="allFr2">
+                        <span>Đã thêm gần đây</span>
+                        <span>Sinh nhật</span>
+                        <span>Công việc</span>
+                        <span>Tỉnh/Thành phố hiện tại</span>
+                        <span>Quê quán</span>
+                        <span>Người theo dõi</span>
+                        <span>Đang theo dõi</span>
+                    </span>
+                </div>
+                <div style="display:flex;">
+                    <div class="hang3" style="cursor: pointer;">
+                        <div class="cot123">
+                            <div class="cot12" style="display: flex; align-items: center;">
+                                <div class="cot1">
+                                    <img src="https://nhanquyenvn.org/wp-content/uploads/2021/03/tran-dan.png"
+                                        alt="trandan">
+                                </div>
+                                <div class="cot2">
+                                    <span class="name">Trần Dần</span>
+                                    <span class="chungFr">12 bạn chung</span>
+                                </div>
+                            </div>
+                            <div class="cot3">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hang3" style="cursor: pointer;">
+                        <div class="cot123">
+                            <div class="cot12" style="display: flex; align-items: center;">
+                                <div class="cot1">
+                                    <img src="data:image/jpeg;base64,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"
+                                        alt="napoleon">
+                                </div>
+                                <div class="cot2">
+                                    <span class="name">Napoleon</span>
+                                    <span class="chungFr">2 bạn chung</span>
+                                </div>
+                            </div>
+                            <div class="cot3">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="display: flex;">
+                    <div class="hang3" style="cursor: pointer;">
+                        <div class="cot123">
+                            <div class="cot12" style="display: flex; align-items: center;">
+                                <div class="cot1">
+                                    <img src="https://chefjob.vn/wp-content/uploads/2018/02/gordon-ramsay-danh-nhieu-thoi-gian-de-hoc-hoi-kinh-nghiem.jpg"
+                                        alt="gordỏnamsay">
+                                </div>
+                                <div class="cot2">
+                                    <span class="name">Gordon Ramsay</span>
+                                    <span class="chungFr">13 bạn chung</span>
+                                </div>
+                            </div>
+                            <div class="cot3">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hang3" style="cursor: pointer;">
+                        <div class="cot123">
+                            <div class="cot12" style="display: flex; align-items: center;">
+                                <div class="cot1">
+                                    <img src="https://chiase24.com/wp-content/uploads/2022/02/Tong-hop-hinh-xam-yakuza-dep-nhat-22.jpg"
+                                        alt="Yakuza Nhật Bản">
+                                </div>
+                                <div class="cot2">
+                                    <span class="name">Yakuza Nhật Bản</span>
+                                    <span class="chungFr">12 bạn chung</span>
+                                </div>
+                            </div>
+                            <div class="cot3">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="display: flex;">
+                    <div class="hang3" style="cursor: pointer;">
+                        <div class="cot123">
+                            <div class="cot12" style="display: flex; align-items: center;">
+                                <div class="cot1">
+                                    <img src="https://nguoinoitieng.tv/images/nnt/32/0/yo5.jpg" alt="ElizaBeth">
+                                </div>
+                                <div class="cot2">
+                                    <span class="name">ElizaBeth</span>
+                                    <span class="chungFr">120 bạn chung</span>
+                                </div>
+                            </div>
+                            <div class="cot3">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hang3" style="cursor: pointer;">
+                        <div class="cot123">
+                            <div class="cot12" style="display: flex; align-items: center;">
+                                <div class="cot1">
+                                    <img src="https://media.vov.vn/uploaded/mp9ts7a2baoj7ljoseqgq/2016_05_17/om3_zwoe.jpg"
+                                        alt="Barack Obama">
+                                </div>
+                                <div class="cot2">
+                                    <span class="name">Barack Obama</span>
+                                    <span class="chungFr">12 bạn chung</span>
+                                </div>
+                            </div>
+                            <div class="cot3">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="display: flex;">
+                    <div class="hang3" style="cursor: pointer;">
+                        <div class="cot123">
+                            <div class="cot12" style="display: flex; align-items: center;">
+                                <div class="cot1">
+                                    <img src="https://taimeme.com/public/upload/memes/huan-hoa-hong-toc-dung-dung-noi-u.jpg"
+                                        alt="Huấn Hoa Hồng">
+                                </div>
+                                <div class="cot2">
+                                    <span class="name">Huấn Hoa Hồng</span>
+                                    <span class="chungFr">125 bạn chung</span>
+                                </div>
+                            </div>
+                            <div class="cot3">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hang3" style="cursor: pointer;">
+                        <div class="cot123">
+                            <div class="cot12" style="display: flex; align-items: center;">
+                                <div class="cot1">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Kim_Jong-un_April_2019_crop.jpg"
+                                        alt="Kim Jung un">
+                                </div>
+                                <div class="cot2">
+                                    <span class="name">Kim Jung un</span>
+                                    <span class="chungFr">72 bạn chung</span>
+                                </div>
+                            </div>
+                            <div class="cot3">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="display: flex;">
+                    <div class="hang3" style="cursor: pointer;">
+                        <div class="cot123">
+                            <div class="cot12" style="display: flex; align-items: center;">
+                                <div class="cot1">
+                                    <img src="https://cdnmedia.baotintuc.vn/2013/08/04/15/41/hitler1.jpg" alt="Hitle">
+                                </div>
+                                <div class="cot2">
+                                    <span class="name">Hitle</span>
+                                    <span class="chungFr">89 bạn chung</span>
+                                </div>
+                            </div>
+                            <div class="cot3">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hang3" style="cursor: pointer;">
+                        <div class="cot123">
+                            <div class="cot12" style="display: flex; align-items: center;">
+                                <div class="cot1">
+                                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBIWFRgREhUYGBgYGBgYGBkYGhgYGRgSGBgZGhgYGBgcIS4lHB4rIRgYJjgmKy8xNTU1GiQ7QDs0Py40NTQBDAwMEA8QHxISGjQrJCs0NDQ0NDQ0NDQ0NDQ0MTQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIALcBEwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAFAQIDBAYABwj/xAA8EAACAQIEAwQIBAUDBQAAAAABAgADEQQFITESQVEGYXGREyIygaGxwfAUQtHhFVJicoIjM/EHJKKywv/EABkBAAIDAQAAAAAAAAAAAAAAAAEDAAIEBf/EACURAAMAAgMAAQQCAwAAAAAAAAABAgMREiExQRMiUWEEMhShwf/aAAwDAQACEQMRAD8A8lTCmSJhDcCHqOE7oQwWXXa9pEVbJsjwdgNJqaFCwjcBgbDaX3Syw14BGYzpt5j8aZqs6feZPGGDGvuDXhQElURiCafKezNRxx1V4VsCAWAY3Fxpy66ia9pGbTb6AKU2Oyk+AJmgybJKtUcQ4VUfmY7+A3PlNTSw9KgvEiIhICgAHiPFYXZjr3aSX8VTQ8K+qSu/NgTdixOp/cRdVy6GzPH0q4XIShBqOoHM2N78gAQCTLOFzempdFViyNwkedm8Li0b/EaYJu21rfMHxNz5mVMRnFEOalNA7leC9jbhJvw8I7yde+Z3xQ+Zqvg0eGzCo6q1MAAgE6Xa9rkAHT/kTkx1dW0Nxe7bsALHTu5eUA4bFYqpqaTW5/lFugXpKtasyMCUe1tCwYqLHUhRoPh+p5IP0ma18/YWJVbXsb+qbefwhPCY+m+xsehsLju6zC/jy1nZ1QE7GzMbbWvrLlCoASyPxIQQACt0OliCN9j5mFUmUcaN1wxOCZzKu0g41oVj65A4TbR9L2B/m7ppKVVWF1IP6w7KudDeGIUljhicMJUrlIhSTlYhWQBXKxOGTlYnDIQg4YnDJysaVkCQPKVaraXa8B49yIGwpC1MdbnGrmY6zM4/FkXgw5iwiKyaYxRs3gzMdY4ZmOswP8VM4ZtJ9QPA9A/iQ6zv4kOswIzfvjxmvfD9RA4M3n8SHWdMH/Fu+LJzQODJ8Jg4dwGB7o3BUIcw1MRsoox1OjYSpj9BCjDSCcyOhkoMmLzltTMviQSbAXPSaPNm1kuWYGnTArsCXJsoOwJ3NudhJi9JXhFluV06QBYj0hXiuQCEPCx9UHciwuYdypjxhqmvDa1zcFyBa/gBf3eEr4WolQ3YaA2F9Li5I+WsF5tm5Un0Y1ZgqgakmwGnf+/SMpglGnz+pQutR3JYFSTz02A6ctPpADfiMa//AG9MKg0aodF0/KOutySOs7szkbYl/SYkkqCbr9D9f129Jw9OmihKahVAsABaw7hF/c1sfMyZ3KOydKkA1Y+kbv8AZHgs02Gw9IaKijwAkdQ6aRmHqaynhoS6DNIqNLCWU4eggzXeKuII0l0yjnYSbBUG9qmhv1UGCcd2QwdT1kT0bbgpdde9RoZdXFSdMTD0ynGkYjM+yWLT1qbLUC6gkAvbpfeDaGaVqVS9Q8HEfWBNxxaesB0PMWG/n6mmIEG5xklDEL6ygMNQw3B6wcQe+op5XmKVl0txLow6Hr4S9aefY/D1cFURy17MBcacaXAIYeBvPQka4BHOSXvpibnQnDEKyS0QiWKEZWNKyUiIRIQiKyNhLBEjcSEKOJgDMZoMSIAzASleFp9Mpj6d4NehDWJWUaizHT7NSXQKq0bSA05dxLgSl6QS0zsDZyU5YXDRtBxeFKQEvxKOgd+Fiwv6MToeIORrsPStCNJZCiS0gmhCBX2gTNToYaqwFmuukpZaTOUcMjPx1PZBA8T0kWa4tSQAfVVWCjaxsdfMmTY/EqnAg2UNc8jUO58gfKZrF4gs1l5gEHwYBv8A2+E048fGU2KutvSLC1iiWvckNe2wUcRJPn98qWX+s/G35eK3d+9gB/kI5qw4HU6EBUvvZb3I06WMiyhxZr3H13Pz3kvTZaNpI9C7OYkBBy7us0H4m8wuW4y232NvofhNHRxWgJvrsB85WWtaNU+7DAqcrRqqwa4Ilam5PKw5eMJYbCuwvuPKJqWaJaRfwrm1jaWvRg9O7T95FQwltyB4kS4KajYwLZSmvgrtR5RBTPvlxag5xwKHTSEGyirkdY9MURvJq2H6Sm+FIube+Ve0FaZU7R5cMTTCj21ZXU/2nUe8X+ELolgBBiuQecK02uAYZexOadaZ1ohEfaJGCBlo0iSWjSJAEZEY4kpEY4kCUMSIAzAbzQYmAMwEVfhafTO4kaynWWEK66ylWEx/Jq+ALjhBzCEcdBzzTHguh1FtYToVYF4pZpVowo0HPTToK/EzpCvE9cRZMgjEEmURgogrTO5xV4VZr2sPjymhxEyPaqsFpsT1AHj9iV1uki29JmPxmN4rkna495A+ICke+D1dtWbQ8PCB4kt/8yQ4Zn9hHcAkkhWYcV9bkDQfpB1SuS/D3kG/X6fvNVVoTMN9ktaoSQt7XOtvibiW1KjhpoNQt7jz576ygKYFib31JB567C20I4GmTdz/AEiwvexvobgW5Rb/ACNX4C+VU2JVbXPP75CbihhrADnoLwV2YwHq+kYa8ppG01OkGNLXJmrtdC02RBxPr3Sti+0bexTAF9L/AHtBWZ4kk2vpz5QBjsyVNEA4ubflVepP03isl7ekMmdds06Yqp7Rqi/vIkeKzrEp6wcEDpaec4zMKl/WZgu5Zrk9xCXAHLS8nw2Kq2LhiUBFyBYEMNOJTew8DKcWlsKuXWjfYftfV0FT3mHcD2gVxuA08ySrxi+xG475ZwBqFwF6xTprwaplnrtHNRbUiX6GOQ9JgialNAX6e6RYbPbHW8n1WmF4paPQcTSVhdYzBHQqeRg7Ks4SooAOvz8IVpJYt0Nj842Wm9oy5VqWmSGdFiRhlEjY6NhIIRI2kpkTSEKOJgDHw/iYAx0Tk8Lz6A6w1lOuJeqjWUq8xr01fAAx+8HNCGOOsoNNceCX6QMJyiKRHKIwg3WdJOGdATR7cgkoEYgkvKMM5TxExPacKbek9hDxuAdXOyIPE316Aza4o7zA9q2JHCOoJt01A+PzlHTltr0dhhXaVeAY9o8UCBRc01HsogCqo5ALsffDNMYXME4a6iniVH+4otxW2Yj8w2uD7jAuV4EvepbQaD+7TaOq0jSf0hPDbmTbQ7iLVNd7Olal9OeiljstNF2VwCLn1uXCJfynDCyg3Jc8VttPy+6R45Xqsqi7d3Xxl/LVYVlQqemnO32fjNMcrl9HOuJi1rw9Ay3D8CAHprLD0g2krLVsNZNRqAb6S2WXM6GRSfYNxmRcd9SICxnZAKCx9fmQb/d/Geg0KinQyR6PNZiS0PbPLq2XYRtHL02AtY2I07mGvnLtPLaXomp0nVixubrue+15tq3o9nAvIuJL2p07t4S/KtaZFM75a7MDhOzNRbipYDkwIPEOhA6dZochycK6s32Zonwt7ektfTTp3RKgC2Ii3+EWXuyr27XgwwdQNSq36XvrPNf4hTXQknvAuPOey4vBpisK9BtOJSAbXKvurDwNjPCcblFWk49JSDDiI9a5XQ29UqbE90Z9NU9inlcrX4NBl2MJPFTbUa25jxE9E7MZs1T1H9oCeWYfClKdKrsWYqw6akqdeRAE9K7HUDxNU5cAH+RJ+g+MChzWgZKVRtmtiTp0eYhIhixsBDjI2khkVSEhQxMA46HcUYBxxiMvgyPQPV3lHEbS6/OUcTtMc+mlmfxvtSi0u4r2pUcTbPglkBj1jTOBjNA2PvOjbzoNB2e5pHnaMSOfaXM5Qxh0MwGatfFLTb2XS3+QN7ffSbrHtoZ592pqFWSoN1J157giUlKq0xk04aa+CXHVGpUUpovtXa/W5P37pl6+FdzdiST15CbTBYqlURRU9VX9am+4u2rI1tiDeW/4LScMaToGtoGNh+0pU6pnUb5SmOyHCU1oLUNi7C9/A2+kuYbDANew63tBmXUKtK1GoBofVIKn1Te+x2/WG0208+63znT/AIz3By/5K+8nBt985F6Rhcg63+/GRiqfd4+f33yQvfp8IjPXY7DOkS0K7czr1/aFsLUvuR9/OA0DX2hbCIRrMHzs1vtBdcKjbjzEnXDqo0FpVouRJqtewjNoS0wTmOI4DdjblzPylOk7ObLrH1wjuWrMFUcr/ARUzLBppTYCLXo7XQdyejUTRtj85m86y5hUf0dr3uyEXV1Ot7HeGcL2moWsWB8JFmtRanDVpnUaadNxp5y9Na0mLSarbRhcww1N1Ng1N1Knh3RiTYWvtv8AtPScowfoqSJzsC391tvdt7oGweHWq4DqL3Uk20PCwb6TTmHHtrbEfyK7SOiRYkaZhDEMWNMhBDInMlMhqQEB2KMAY4w9izM/jTEZvBsegtpRxR0l15QxZ0mWfTQwDiNzKryzWOsrPNkCGQNG3iuY0mPSFujuKJG3nQ6ByPeViudIxTOqmVZVAvMW0M8/7TgMFUnQ39wvqZuszbQzz3tNiQFCn8wYef8AzKY9cuwvehnZrNCjvRKB0bXgbaw5ajum3wP4N14U/wBJuYO/eNSdJgey1FmbjI2099v3hfH0G3Xebf8AHV43Xj/4Wx/y6i1DW1/tM0noaKVfRo/G5F/BB095EtE9fvwmT7O0anpTUqEkqpUeBK/pNJUrW+77/KXxS8eLsmS1ky9fBJVbqd9h18OsdQHMnzOmsjpuD9fDlr8JaRfAc9Ph8JiydmyC7hk7vfCeHS3WC6NS37desI0a33+0QXey+h++UX0d99pEtUDnIXxq20YAwpFWYrtnhK/peKmCyEct1bbaYQ4SujXFZ/BrkX/qB0M9bx6O+u/h0MyGeZayrdQb/fSRrQz+yX6BqYlKaq1VgpIF7XsT/SNz4TcdmKxegWY3Ba4vobcI/WZLJMhWs6ire1xty15X+9ZtkQU/9NBYDQDu3lKYUtlrAOUrKg2Y/XX4TSmZ3I046nGfyAn/ACIsPheaIxsLUmHO/u0cYhnGIYwSIYhnRDIQQyGpJTIapgIDMWZn8ad4exZmexjbzNm8HY/Sg8G45tIQcwXj20MzwuxzArnWV3MkcyFzN0IRRC0YY5zGkx6M79Gzol50JD3ZDEqtGq0jrPF14WQHzWpoZgO0YDLcn2W0HO+/0m1zd95i82sVK24i21hc8WwB6amKh/cXpdFrshTPouIj2mPkNN/dD34fjNvu8pZPTanSSm6MjhdVZSpvzNj84YRbjjXlv7t/fOo3xhIpilVWyMqqJcCx59xEpHFa+7me75yfOTw2Yey+vg4Gvn9DM89Y374q8u5SGTj422ajDVuLY/fWX0rC1gb8uo+EyuHxg0vc26W+UI08Zcb+f393mTI+jTDDYba0u4Wr1/SZv8bLFDEltPgL7TM6Hl/N6uIbTDpxHlyA8TAjYLN/yrSBPPiNx/4zU4bFKi38/wDmQYzOFI0MvLXyBJmMxeGzcauC4HJX+mkH4HP6lJirAqdijg6nvB3mnrZ6QfDrFGaUao4a9FHv/MLy3THJr8l7s7mC1TxkKrKRoNAVOx8x8YezG1+LrMTWwIwtValEEUag4QLk8FTfhJOtiLEeBHSaulVLqoGpJA8zKUu9C29PYeyGjw0+L+dif8RoPkfOE4ykgVQg2UAeUUx6Rzark2zrxs6dCVOMaYsaZCCGQVjJmlauYCAzGGZ3FmHsa0z2KaZc7H4ylUMEY9tDClUwPmDaGKj0ZQIcyFzJGMgczdCM9sYxjCZzGMJjhI6dG3iSEPclaQ13ihoOzXHpSQ1KhsBoBzZuSqOZi2t9IKegNnuKRBd2tfQcyT3CTdjMrWo34okFVJCKN+PmzdLX0HXWYTMsc9VzUfnsBsq8gJYyLO6uGcVKZ/uU+y69D39DymjHgU6b9F1lb6Xh7U9NHHBUQOvfuD1B3B7xAWZ5U+HJq07vRb2ubIerW3X+rz6wtkubUsTTFVDvoQd1Ybq3eITD6WPge8eEtXYcduWef4lFdDTv6p1U9G5GY6urK5R9Cp17+8d03faDLThz6WkL0SdRv6Njy/s6dNpmM2w4qDjUjiGx7uhmO25rs6E8bnaBivcd8mTEkaQelU+BG475YuCLiB/cgL7WEaeJvrp8oVwuK2C/HaZmxElw+JIMQ5HTRuqSFxY8+kWp2eZxcEyhlWaIFHUec0GBzxPZOkC18l+/gyGY9ncQp0Fx3H9YPp0KiMAykHvE9KbMqZsDYxmLy+lUW4sOfKXX6I+vUCsGlN8O1Oprs2vUajwMJ9mqQZxbZLn37D5/CCbCnxAHkfKaXsvhuCgHO7+trvw/l+p98tK3QnNWpf7DRMbOJiExxiFMbOJiEyEOiGdeITIARjKuIMsMZSxLQBBWObeZ3FNDeYPM/iW1mTMaMZXrNAmYPCtZoDzBpXGuy9eFFjIHMkYyFzNsIy0yNjGmKYkYLEnRLzpCHrme5ouGpioylrtwqBoOIgkcTchpPOcyzGpXf0lRv7QNFUdFH2ZJmuZ1cR/vNxDkuyr4AfPeCS1ja5I5E8u4npNExx7Yl1y6QrRgMeTI2l2wSHezWeNhqofUo1g69V/mH9Q38xznseGxIdQwIIIBBGxU6gifP4aeg/8AT7OeJThHOqAsh/ov6y+46juPdKPssuj0CoLgggEEWIOoIO4ImEz7JzQJq0gWpE6jc0yevVe/lNurytiCNRa4OhHIg73i7hUtMbjyOXtHkOPpC/Gm/PvEbRqX1H33TQ9ocpFJuNL+ic2tvwMfyn+np5TM1EKNflMbTl6ZuTVraL6C8Z6ONp1eYltGBh1smtEdMsNjpLdOq4N7xFSTKn3tKuC000Trj3tYk/WGMrzkj1SYBsNrXJ0AHWaTJuyVRyHrE01/l/OR8l9+vdJw/BasqS7LGAonE1eAewLF25BenidQP2m6FgLDQDQdwlTBYWnSQJTUKo8yepO5PeZZvGytGO75MdeJeNvEvCLHXiXiXjbyEHExCY0tGlpCHOZRxLS0zQfiXgYUBsxeAa7awvmLwHWbWY8vppjwrV2gPHtC2IaA8c+sONdhvwrkyFzHEyJjNkmWhGMbecxjby5QW8SNvOgIFXF9pWq05KlYGcxm19mNbRSvY2O3K/yiM0mr0biVVJ2OhHxHURT6eh86a2OMnwOMek6VUPrIwYd/UHuIuD4yvEaQsj2/L8clVEqIfVdQw9/Lx5e6WWE8+/6f5p6r4Zj7J40/tPtgeBsf8jN0laH1bB4yDGUVdWRxdWFiO6ee5tl7Un4Dqp1Ruo6HvE9IqsCIDzXCrUUo3uPMNyIiskcl+zRivi/0YBFIlmkbDSJXolGKPoRp3HoR4xVMy+Gz0s0cRY6y/TqX293jBC07mbHsXlXE/pnF1Tboan5fLfyhTK19q2afs9kaUVD1ADVIuSdeC/5V6HqfpDoaQh4oeXMje3tk4aLxSDincUgCa8QtIuKIXkISlohaR3jS8hCQtELSIvGl5CDnaDcU8uVHgrGPAwoDZg+sD1Wl7HVNYLqNMeT00x4VcQ0BYxtYYxDQJiNWl8S7BTISYxjLKUSY2ph5qTM9JlUmNJjnFpGTLFBbzo286AOiGnWIMJUK1xOnR2NvZXLK1slJkFVL9xGx7506Orwzx6Qqbi9vEd43nMJ06L+B3yS5ZjTRqpWH5WHEBzU6EeRM9hoEFQRsQCPAzp0k/Ia+CQ7SniFiToWWkzufYQMvpR7SDXvXn+szy/fhOnTJk/sbMX9Qjl+HLuqL7TsFF9rk21nqOBwy0qa0k2Xc82Y7sZ06RFMzekWA0UPOnQmcdxTuKdOkIdxRC86dIAQvELTp0hBC8aXnTpAkVRoHxzxZ0FFpM5i21g6o06dMd+mmfChiXg9Eu06dGQVoJUsOLRmJoC06dGoADxIsZWM6dGITXok6dOhAf//Z"
+                                        alt="Mack Zuker">
+                                </div>
+                                <div class="cot2">
+                                    <span class="name">Mack Zuker</span>
+                                    <span class="chungFr">+999 bạn chung</span>
+                                </div>
+                            </div>
+                            <div class="cot3">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="display: flex;">
+                    <div class="hang3" style="cursor: pointer;">
+                        <div class="cot123">
+                            <div class="cot12" style="display: flex; align-items: center;">
+                                <div class="cot1">
+                                    <img src="../Facebook_Home/img/thinh.jpg"
+                                        alt="Nguyễn Đức Thịnh">
+                                </div>
+                                <div class="cot2">
+                                    <span class="name">Nguyễn Đức Thịnh</span>
+                                    <span class="chungFr">1200 bạn chung</span>
+                                </div>
+                            </div>
+                            <div class="cot3">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hang3" style="cursor: pointer;">
+                        <div class="cot123">
+                            <div class="cot12" style="display: flex; align-items: center;">
+                                <div class="cot1">
+                                    <img src="../Facebook_Home/img/phong.jpg"
+                                        alt="Đặng Hồng Phong">
+                                </div>
+                                <div class="cot2">
+                                    <span class="name">Đặng Hồng Phong</span>
+                                    <span class="chungFr">120 bạn chung</span>
+                                </div>
+                            </div>
+                            <div class="cot3">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="display: flex;">
+                    <div class="hang3" style="cursor: pointer;">
+                        <div class="cot123">
+                            <div class="cot12" style="display: flex; align-items: center;">
+                                <div class="cot1">
+                                    <img src="https://scontent.fhan4-2.fna.fbcdn.net/v/t1.6435-9/150479540_1899509266857138_2091396570004763066_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=0yKf7R9FOMwAX_g9Ao4&_nc_ht=scontent.fhan4-2.fna&oh=00_AT9DYE6gyBHNETpjThsB0XChEIhsDBJtXgevg8Dz_OaFAw&oe=6326C274"
+                                        alt="Nguyễn Mạnh Hùng">
+                                </div>
+                                <div class="cot2">
+                                    <span class="name">Nguyễn Mạnh Hùng</span>
+                                    <span class="chungFr">1200 bạn chung</span>
+                                </div>
+                            </div>
+                            <div class="cot3">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hang3" style="cursor: pointer;">
+                        <div class="cot123">
+                            <div class="cot12" style="display: flex; align-items: center;">
+                                <div class="cot1">
+                                    <img src="../Facebook_Home/img/QD1.jpg"
+                                        alt="Lại Quang Duy">
+                                </div>
+                                <div class="cot2">
+                                    <span class="name">Lại Quang Duy</span>
+                                    <span class="chungFr">1200 bạn chung</span>
+                                </div>
+                            </div>
+                            <div class="cot3">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="display: flex;">
+                    <div class="hang3" style="cursor: pointer;">
+                        <div class="cot123">
+                            <div class="cot12" style="display: flex; align-items: center;">
+                                <div class="cot1">
+                                    <img src="https://scontent.fhan3-4.fna.fbcdn.net/v/t39.30808-6/269273623_2736900899789415_711959850981197448_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=tpfjerWL8yMAX9NnQp0&_nc_ht=scontent.fhan3-4.fna&oh=00_AT_pzqtVcFX85uR4jYKMoSW9-mRXKVx9wQT6NIgAs918wQ&oe=630890DF"
+                                        alt="Hoàng Phú">
+                                </div>
+                                <div class="cot2">
+                                    <span class="name">Hoàng Phú</span>
+                                    <span class="chungFr">63 bạn chung</span>
+                                </div>
+                            </div>
+                            <div class="cot3">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hang3" style="cursor: pointer;">
+                        <div class="cot123">
+                            <div class="cot12" style="display: flex; align-items: center;">
+                                <div class="cot1">
+                                    <img src="https://scontent.fhan3-1.fna.fbcdn.net/v/t1.6435-9/175412858_3169308326688853_7349774879548598041_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=8nQr0P5hbq0AX-OwdgE&_nc_ht=scontent.fhan3-1.fna&oh=00_AT_7mk3xmLXLL33vNiY4He7c-Co-T063IfNp7GYvJBhVGw&oe=6326F93A"
+                                        alt="Minhcuong">
+                                </div>
+                                <div class="cot2">
+                                    <span class="name">Minh Cường</span>
+                                    <span class="chungFr">120 bạn chung</span>
+                                </div>
+                            </div>
+                            <div class="cot3">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function setContent() {
+        let showMode = document.getElementById('t-content');
+        console.log(showMode)
+        if (showMode.style.display == "none") {
+            showMode.style.display = "block"
+        } else {
+            showMode.style.display = "none"
+        }
+    }
+
+</script>
+
+</html>

@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+        <link rel="icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/900px-Facebook_f_logo_%282019%29.svg.png"> 
+    <title>Four Farmers| Fakebook</title>
+
+    <link rel="stylesheet" href="./profile-page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="d-flex flex-column w-100 h-100">
+        <div class="flex">
+            <div class="flex3">
+                <div class="dh">
+                    <a href="../index.html"><img class="imga" src="./Facebook_Home/img/fb_icon.png" alt="" /></a>
+                </div>
+                <input type="text" class="input" placeholder="Search Facebook" />
+            </div>
+            <div id="flex1">
+                <a href="./Facebook_Home/index.html" id="tt0" style="color: black;"><i class="fa-solid fa-house fa-lg"></i></a>
+            <a href="./Facebook_Home/watch/watch.html" id="tt1"style="color: black;"><i class="fa-solid fa-display fa-lg"></i></a>
+                <div id="tt2"><i class="fa-solid fa-store fa-lg"></i></div>
+                <div id="tt3"><i class="fa-solid fa-users-line fa-lg"></i></div>
+                <div id="tt4"><i class="fa-solid fa-puzzle-piece fa-lg"></i></div>
+            </div>
+            <div class="flex2">
+                <div class="round-btn1"><i class="fa-solid fa-grip fa-lg"></i></div>
+                <div class="round-btn1">
+                    <i class="fa-brands fa-facebook-messenger fa-lg"></i>
+                </div>
+                <div class="round-btn1"><i class="fa-solid fa-bell fa-lg"></i></div>
+                <img onclick="setContent()" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                    data-bs-title="Tooltip on bottom" class="imga1 " src="./Facebook_Home/img/4farmers.jpg" alt="" />
+                <!-- <div onclick="setContent()" class="t-angeladown" style="margin-top:25px; margin-right: 11px;font-size: 13px;">
+                    <i class="fa-solid fa-angle-down"></i>
+                </div> -->
+            </div>
+        </div>
+
+
+        <div class="d-flex justify-content-end" style="margin-top: 52px;margin-right: 13px;">
+            <div id="t-content" class="shadow-lg p-3 mb-5 bg-body rounded"
+                style=" width: 361px; margin: 3px; z-index: 11;display: none; position: fixed;">
+                <div style="display: flex; flex-direction: column;  height: 123px; "
+                    class="shadow-lg p-3 mb-5 bg-body rounded t-div1">
+                    <div class="t-hang5" style="display: flex; align-items: center; ">
+                        <div style="margin-top:4px;">
+                            <img class="gneimcpu p9wrh9lq"
+                                src="./z3667158465268_22992f4611764e8d13dcde87b22ef672 (1).jpg" alt=""
+                                style="height: 40px; width: 40px; border-radius: 50%;">
+                        </div>
+                        <div style="display: flex;flex-direction: column; margin-left: 10px;">
+                            <span style="font-weight:600">Four Farmers</span>
+                        </div>
+                    </div>
+                    <div style=" border-bottom: 1px solid #CED0D4; margin-top:20px; margin-bottom: 6px;"></div>
+                    <a href="#" style="color:#1876F2; font-weight:600 ;">See all profiles</a>
+                </div>
+                <div class="t-hang12345" style="cursor: pointer;">
+                    <div class="t-cot123" style="display: flex; align-items: center; justify-content: space-between;">
+                        <div class="t-cot12" style="display: flex; align-items: center;">
+                            <i class="fa-solid fa-gear"></i>
+                            <div style="margin-left: 5px; font-weight: 500;color: #414141;" class="t-cot2">Settings &
+                                privacy</div>
+                        </div>
+                        <div class="t-cot3">
+                            <i style="margin-right: 5px; font-size: 20px; color: #414141;"
+                                class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="t-hang12345" style="cursor: pointer;">
+                    <div class="t-cot123" style="display: flex; align-items: center; justify-content: space-between;">
+                        <div class="t-cot12" style="display: flex; align-items: center;">
+                            <i class="fa-solid fa-circle-question"></i>
+                            <div style="margin-left: 5px; font-weight: 500;color: #414141;" class="t-cot2">Help &
+                                support</div>
+                        </div>
+                        <div class="t-cot3">
+                            <i style="margin-right: 5px; font-size: 20px; color: #414141;"
+                                class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="t-hang12345" style="cursor: pointer;">
+                    <div class="t-cot123" style="display: flex; align-items: center; justify-content: space-between;">
+                        <div class="t-cot12" style="display: flex; align-items: center;">
+                            <i class="fa-solid fa-moon"></i>
+                            <div style="margin-left: 5px; font-weight: 500;color: #414141;" class="t-cot2">Display &
+                                accessibility</div>
+                        </div>
+                        <div class="t-cot3">
+                            <i style="margin-right: 5px; font-size: 20px; color: #414141;"
+                                class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="t-hang12345" style="cursor: pointer;">
+                    <div class="t-cot123" style="display: flex; align-items: center; justify-content: space-between;">
+                        <div class="t-cot12" style="display: flex; align-items: center;">
+                            <i class="fa-solid fa-circle-exclamation"></i>
+                            <div style="margin-left: 5px; font-weight: 500;color: #414141;" class="t-cot2">Give feedback
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="./SIgnIn-Signup/index.html" style="text-decoration:none;color:black">
+                <div class="t-hang12345" style="cursor: pointer;">
+                    <div class="t-cot123" style="display: flex; align-items: center; justify-content: space-between;">
+                        <div class="t-cot12" style="display: flex; align-items: center;">
+                            <i class="fa-solid fa-right-to-bracket"></i>
+                            <div style="margin-left: 5px; font-weight: 500;color: #414141;" class="t-cot2">Log Out</div>
+                        </div>
+                    </div>
+                
+                </div>
+            </a>
+                <div class="t-hang6" style="font-size: 14px;">
+                    <span class="t-hover">Privacy</span><span aria-hidden="true"> · </span><span
+                        class="t-hover">Terms</span><span aria-hidden="true"> · </span><span
+                        class="t-hover">Advertising</span><span aria-hidden="true"> · </span><span class="t-hover">Ad
+                        Choices<i data-visualcompletion="css-img" class="gneimcpu oee9glnz"
+                            style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yl/r/cbvsB_pNI8e.png&quot;); background-position: -86px -71px; background-size: auto; width: 12px; height: 12px; background-repeat: no-repeat; display: inline-block;"></i></span><span
+                        aria-hidden="true"> · </span><span class="t-hover">Cookies</span><span aria-hidden="true"> ·
+                    </span><span class="t-hover">More</span><span aria-hidden="true"> · </span>Meta © 2022</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div>
+
+        <div class="parent1-layout">
+            <div class="cover">
+                <img src="./z3667158465268_22992f4611764e8d13dcde87b22ef672 (1).jpg" alt="cover" class="cover-picture"
+                    style="object-fit:cover ;">
+            </div>
+            <div>
+                <div
+                    style="height: 115px;border-bottom:1px solid #CCCED2;width:875px; display: inline-block; margin-left: 350px;">
+                    <div class="avatar">
+                        <div class="ava">
+                            <img src="./z3667158465268_22992f4611764e8d13dcde87b22ef672 (1).jpg" alt="" class="ava-1">
+                            <div style="margin-top:100px"><span style="font-size:20px; font-weight: 600;">Four
+                                    Farmers</span> <br>
+                                <span>4k+ Friends</span><br>
+                                <span class="friends-ava">
+                                    <img src="./Kim_Jong-un_April_2019_crop.jpg" alt="" class="friends4k">
+                                    <img src="./240532210_583612606100772_8886291449796653470_n.jpg" alt=""
+                                        class="friends4k-1">
+                                    <img src="./anh dai dien.jpg" alt="" class="friends4k-2">
+                                    <img src="./Facebook_Home/img/Ảnh chụp màn hình 2022-08-20 052425.png" alt="" class="friends4k-3">
+
+                                    <img src="./Facebook_Home/img/Ảnh chụp màn hình 2022-08-20 054529.png" alt="" class="friends4k-4">
+
+                                    <img src="./gordon-ramsay-danh-nhieu-thoi-gian-de-hoc-hoi-kinh-nghiem.jpg" alt=""
+                                        class="friends4k-5">
+
+                                    <img src="./hitler1.jpg" alt="" class="friends4k-6">
+
+                                    <img src="./Tong-hop-hinh-xam-yakuza-dep-nhat-22.jpg" alt="" class="friends4k-7">
+
+
+
+                                </span>
+                            </div>
+
+                            <button class="add-story"> <i class="fa-solid fa-circle-plus"> &nbsp;</i>Add to
+                                story</button>
+                            <button class="edit-profile"><i class="fa-solid fa-pen">&nbsp; </i> Edit profile</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div style="display:flex; padding-left: 320px;">
+
+                    <div class="list-item">About</div>
+                    <a href="./wall-2/index.html" style="color:black; text-decoration:none                                      " class="list-item">Friends</a>
+                    <div class="list-item">Photos</div>
+                    <div class="list-item">Videos</div>
+                    <div class="list-item" style="padding-right:20px ;">Check</div>
+                    <div class="list-item">More</div>
+                    <div class="list-item" style="margin-left:320px"><i class="fa-solid fa-ellipsis"></i></div>
+                </div>
+
+
+
+            </div>
+            <div>
+
+            </div>
+
+        </div>
+
+
+        <div style="display: flex;">
+            <div style="display:flex;justify-content: space-even; margin-left: 320px; margin-top: 20px;">
+
+                <div>
+                    <div class="intro">
+                        <div style="border-bottom:1px solid #CED0D4;">
+                            <div style="font-size:20px;font-weight: 600 ;">Intro</div>
+                            <div style="text-align: center;margin-top:20px;margin-bottom: 20px;">Bringing the world
+                                closer
+                                together</div>
+                        </div>
+                        <div>
+                            <div class="intro-content"><i class="fa-solid fa-suitcase"></i> <span>Founder and CEO
+                                    at</span>
+                                <span class="intro-underline">Meta</span>
+                            </div>
+                            <div class="intro-content"><i class="fa-solid fa-suitcase"></i> <span>Works at</span> <span
+                                    class="intro-underline">Chan
+                                    Zuckerberg
+                                    Initiative</span>
+                            </div>
+                            <div class="intro-content"><i class="fa-solid fa-graduation-cap"></i> <span>Studied Computer
+                                    Science
+                                    and Psychology
+                                    at</span>
+                                <span class="intro-underline">Harvard University</span>
+                            </div>
+                            <div class="intro-content"><i class="fa-solid fa-house-chimney"></i> <span>Lives in</span>
+                                <span class="intro-underline">Palo Alto,
+                                    California</span>
+                            </div>
+                            <div class="intro-content"><i class="fa-solid fa-location-dot"></i> <span>From</span> <span
+                                    class="intro-underline"> Dobbs
+                                    Ferry, New York</span>
+                            </div>
+                            <div class="intro-content"><i class="fa-solid fa-heart"></i><span>Married to</span> <span
+                                    class="intro-underline">Priscilla
+                                    Chan</span></div>
+                            <div class="intro-content"><img src="./EUZoGZ3xZic.png" alt=""
+                                    style="width: 15px;height: 15px"></i>
+                                <span>Followed
+                                    by</span>
+                                <span class="intro-underline">119,429,414 people</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="profile-images">
+                        <div style="display:flex; justify-content:space-evenly;">
+                            <div style="font-size:20px">Photos</div>
+                            <div style="font-size:20px"><a href="#">See all Photos</a> </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="grid3x3">
+                            <div><img
+                                    src="https://scontent.fhan3-3.fna.fbcdn.net/v/t1.6435-9/174690987_10112909410230211_9091790613593990512_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=174925&_nc_ohc=zS9wonLwwz0AX_8mtKU&tn=awUyiExlGwnfoHm5&_nc_ht=scontent.fhan3-3.fna&oh=00_AT_IBDYFYpknJ9RlVfwyYIjBYq7sOwOJWFMHC4DVwbURcA&oe=632B4E73">
+
+                            </div>
+
+                            <div><img
+                                    src="https://scontent.fhan4-1.fna.fbcdn.net/v/t1.6435-9/106567740_10112084545410921_8506334020973196184_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=174925&_nc_ohc=OzOJY-706XwAX9XloU8&_nc_ht=scontent.fhan4-1.fna&oh=00_AT-xC3EFPfgY0BoMe5YVsP1J9oWaV60-P2n_cbxk4VhUbQ&oe=632A044C">
+                            </div>
+                            <div><img
+                                    src="https://scontent.fhan3-4.fna.fbcdn.net/v/t1.18169-9/21272259_10104009535136241_2324741104085283296_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=174925&_nc_ohc=21eKEDvNkm0AX-ckZup&tn=awUyiExlGwnfoHm5&_nc_ht=scontent.fhan3-4.fna&oh=00_AT87MzGv50bVBRFM8i74rUYH0pabx69TVqKdMcgaACcRnA&oe=63282C52">
+                            </div>
+                            <div><img
+                                    src="./hitler1.jpg">
+                            </div>
+                            <div><img
+                                    src="./huan-hoa-hong-toc-dung-dung-noi-u.jpg">
+                            </div>
+                            <div><img
+                                    src="https://scontent.fhan3-2.fna.fbcdn.net/v/t31.18172-8/12265655_10102475457180761_7081554074581754773_o.jpg?_nc_cat=101&ccb=1-7&_nc_sid=174925&_nc_ohc=vNQ3RndOrTAAX8aIGkh&_nc_ht=scontent.fhan3-2.fna&oh=00_AT8-QsdTE-9pk_LzuLXDRNNg7PF6uizk8S2mGEjWergw5g&oe=632A836E">
+                            </div>
+                            <div><img
+                                    src="./gordon-ramsay-danh-nhieu-thoi-gian-de-hoc-hoi-kinh-nghiem.jpg">
+                            </div>
+                            <div><img
+                                    src="https://scontent.fhan4-3.fna.fbcdn.net/v/t31.18172-8/11406416_10102210414947521_2931549383973829138_o.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=aeA_RkMJ658AX-iyCYN&_nc_ht=scontent.fhan4-3.fna&oh=00_AT9DP99qUSAto9t7IzZEJ-X0nJ3fun6KWKzZ18YTbtI-nA&oe=632A0DE4">
+                            </div>
+                            <div><img
+                                    src="./Kim_Jong-un_April_2019_crop.jpg">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="profile-friends">
+                        <div style="display:flex; justify-content:space-evenly;">
+                            <div style="font-size:20px;">Friends <br></div>
+                            <div style="font-size:20px;"><a href="#">See All Friends</a></div>
+                        </div>
+
+
+
+
+
+
+                        <div class="grid3x3">
+                            <div><img src="https://nhanquyenvn.org/wp-content/uploads/2021/03/tran-dan.png">
+                            </div>
+                            <div><img src="./gordon-ramsay-danh-nhieu-thoi-gian-de-hoc-hoi-kinh-nghiem.jpg">
+                            </div>
+                            <div><img src="https://nguoinoitieng.tv/images/nnt/32/0/yo5.jpg">
+                            </div>
+                            <div><img src="./hitler1.jpg">
+                            </div>
+                            <div><img src="./huan-hoa-hong-toc-dung-dung-noi-u.jpg">
+                            </div>
+                            <div><img src="./Kim_Jong-un_April_2019_crop.jpg">
+                            </div>
+                            <div><img src="./Tong-hop-hinh-xam-yakuza-dep-nhat-22.jpg">
+                            </div>
+                            <div><img src="./yo5.jpg">
+                            </div>
+                            <div><img src="./huan-hoa-hong-toc-dung-dung-noi-u.jpg">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div style="margin-top:20px;">
+                <div class="status-1">
+                    <div class="status-1-border">
+                        <img src=".//z3667158465268_22992f4611764e8d13dcde87b22ef672 (1).jpg" alt="" class="mark-ava">
+
+                        <input type="text" name="" id="input" placeholder="What's on your mind? Four Farmers">
+                        <button id="btn">Post</button>
+
+                    </div>
+                    <div class="status-live">
+                        <img src="./icon-fb.png" alt="">
+                        <img src="./icon-fb-2.png" alt="">
+                        <img src="./icon-fb-3.png" alt="">
+                    </div>
+
+
+                </div>
+
+
+                <ul id="list">
+                    <li class="list-item">
+                        <div class="status-li">
+
+                            <div class="status-li-1">
+                                <img src="./z3667158465268_22992f4611764e8d13dcde87b22ef672 (1).jpg" alt="">
+                                <div>
+                                    <div style="font-weight:600 ;">Four Farmer</div>
+                                    <div style="margin-top:-20px"><i class="fa-solid fa-earth-americas"></i></div>
+                                </div>
+                                <button class="delete-btn"><i class="fa-solid fa-xmark"></i></button>
+
+                            </div>
+                            <div class="status-li-content">Content</div>
+
+
+
+                            <div class="status-li-icon">
+                                <div><i class="fa-solid fa-thumbs-up"></i> Like</div>
+                                <div><i class="fa-solid fa-message"></i> Comment</div>
+                                <div><i class="fa-solid fa-share"></i> Share</div>
+                            </div>
+                            <div class="status-li-comment">
+                                <img src="./z3667158465268_22992f4611764e8d13dcde87b22ef672 (1).jpg" alt="">
+                                <input type="text" placeholder="Write a comment...">
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+
+
+                    </li>
+
+                </ul>
+                <div class="post-content">
+                    <div class="post-header">
+                        <div class="post-ava">
+                            <img src="./Facebook_Home/img/4farmers.jpg" alt="">
+                        </div>
+                        <div style="margin-left:10px"><span class="post-name">Four Farmers</span><br>
+                            <span class="post-date">24/08/2022 <i class="fa-solid fa-earth-americas"></i></span>
+                        </div>
+                        <div style="float:right; margin-left: 380px;" class="content-3dots"><i
+                                class="fa-solid fa-ellipsis"></i>
+                        </div>
+                    </div>
+                    <div class="content-text" style="padding-bottom:20px;padding-left: 10px;">Đã cập nhật ảnh bìa</div>
+                    <div class="content-img">
+                        <img src="./Facebook_Home/img/4farmers.jpg" alt="">
+                    </div>
+                    <div class="content-display-like"></div>
+                    <div class="content-reaction">
+                        <div><i class="fa-solid fa-thumbs-up"></i>Like</div>
+                        <div><i class="fa-solid fa-message"></i>Comment</div>
+                        <div><i class="fa-solid fa-share"></i>Share</div>
+                    </div>
+                    <div class="post-comment">
+                        <img src="./Facebook_Home/img/4farmers.jpg" alt="">
+                        <input type="text" placeholder="Write a comment...">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+
+
+    <html lang="en">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function setContent() {
+            let showMode = document.getElementById("t-content");
+            console.log(showMode);
+            if (showMode.style.display == "none") {
+                showMode.style.display = "block";
+            } else {
+                showMode.style.display = "none";
+            }
+        }
+    </script>
+
+
+    <script src=" ./profile-page.js">
+    </script>
+</body>
+
+</html>
